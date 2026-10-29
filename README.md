@@ -1,16 +1,33 @@
-## Hi there 👋
+<!-- OSS MASTER — SOT profile -->
 
-<!--
-**maliroq/maliroq** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Practical open-source tools
 
-Here are some ideas to get you started:
+I maintain focused open-source tools for recovery, DNS policy experiments, and safer macOS migration decisions.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### [ComposeDrill](https://github.com/maliroq/composedrill)
+
+**Your backup passed. Will your app?**
+
+Rehearse a Docker Compose recovery in isolation and fail the drill when the restored application is not actually healthy.
+
+```bash
+brew install maliroq/tap/composedrill
+```
+
+### [WireDiet](https://github.com/maliroq/wirediet)
+
+**Cut the chatter. Keep the features.**
+
+Build minimal, device-specific DNS policies from real observations and reversible experiments.
+
+```bash
+brew install maliroq/tap/wirediet
+```
+
+### [LibreReplace](https://github.com/maliroq/librereplace)
+
+**Replace paid Mac apps without losing what matters.**
+
+Compare installed commercial Mac apps with evidence-backed open-source alternatives, including explicit gains, losses, and KEEP decisions.
+
+**Status:** open-source source preview; no signed/notarized consumer binary yet.
