@@ -30,4 +30,6 @@ brew install maliroq/tap/wirediet
 
 Compare installed commercial Mac apps with evidence-backed open-source alternatives, including explicit gains, losses, and KEEP decisions.
 
-**Status:** open-source source preview; no signed/notarized consumer binary yet.
+```bash
+brew install --cask maliroq/tap/librereplace
+```
